@@ -2,6 +2,7 @@ name: Build KoolBoobaOS ISO
 
 # Запускать скрипт только по кнопке (вручную)
 on: 
+  push:
   workflow_dispatch:
 
 jobs:
